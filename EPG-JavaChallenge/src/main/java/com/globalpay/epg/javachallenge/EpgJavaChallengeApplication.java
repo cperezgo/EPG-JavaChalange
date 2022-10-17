@@ -7,10 +7,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class EpgJavaChallengeApplication {
 
+	
+	
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(EpgJavaChallengeApplication.class, args);
 		
-		//run.getBean(requiredType);
+		StartProcess sp = run.getBean(StartProcess.class);
+		
 	}
-
+	
+	
 }
