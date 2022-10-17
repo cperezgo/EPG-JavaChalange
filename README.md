@@ -1,5 +1,5 @@
 # EPG-JavaChallenge
 
-Author: Crstian Pérez González
+Author: Cristian Pérez González
 
 Execute Test IntegrationTest
